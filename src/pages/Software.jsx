@@ -2,6 +2,7 @@ import React from 'react';
 import {logo, sdPicture} from "../components/image"
 import Slidersd from "../components/Slidersd";
 import {Link} from "react-router-dom";
+import SliderWorks from "../components/SliderWorks";
 
 function Software() {
     const headers = {
@@ -60,8 +61,7 @@ function Software() {
                 <h1 className="name__h1Pages">Наши работы</h1>
             </div>
             <div className="swiper__works container">
-                {/* создать новый слайдер для работ
-                <Slidersd/>*/}
+                <SliderWorks/>
             </div>
 
 

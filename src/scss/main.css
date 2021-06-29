@@ -173,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 /* PAGES */
 .sd_body {
     background-color: #FEFEFE;
+    padding-bottom: 80px;
 }
 
 .headerPages {
@@ -459,6 +460,9 @@ padding: 30px;
 .swiper__block_text {
     width: 100%;
     padding: 10px;
+}
+.slider__links {
+
 }
 .swiper__contacts_main {
 margin-left: 5px;

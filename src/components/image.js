@@ -1,4 +1,4 @@
-export {default as logoPng} from "../assets/img/logo.svg";
+export {default as logoPng} from "../assets/img/logo.png";
 export {default as contactUs} from "../assets/img/us.svg";
 export {default as island1} from "../assets/img/island1.png";
 export {default as greenPlus} from "../assets/img/greenPlus.png";
@@ -10,9 +10,11 @@ export {default as cloud1upper} from "../assets/img/cloud1upper.png";
 export {default as cloud1down} from "../assets/img/cloud1down.png";
 export {default as cloud3down} from "../assets/img/cloud3down.png";
 export {default as cloud3upper} from "../assets/img/cloud3upper.png";
-export {default as logo} from "../assets/img/logo.png";
+export {default as logo} from "../assets/img/logo.svg";
 export {default as sdPicture} from "../assets/img/sdPicture.png";
 export {default as logoMenu} from "../assets/img/logo2.png";
+export {default as str} from "../assets/img/str.svg";
+export {default as github} from "../assets/img/github.png";
 //photo to slider on sd page
 export {default as petr} from "../assets/photo/petr.png";
 export {default as andrey} from "../assets/photo/andrey.png";
