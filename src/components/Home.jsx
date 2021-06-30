@@ -49,9 +49,13 @@ function Home() {
                     за что отвечает этот остров, пока хз (сайт школы, приколюхи)
                     пока пусть висит ноунейм
                     */}
-                    <img src={island2} alt="island"
-                         className="island__middle_main"/>
-                    <img src={orangePlus} alt="plus" className="plus__orange"/>
+                    <Link to="/school-146">
+                        <img src={island2} alt="island" className="island__middle_main"/>
+                    </Link>
+                    <Link to="/school-146">
+                        <img src={orangePlus} alt="plus" className="plus__orange"/>
+                    </Link>
+
                 </div>
                 <div className="island__right">
                     <Link to="/software-development">

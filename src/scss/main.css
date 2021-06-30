@@ -175,6 +175,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #FEFEFE;
     padding-bottom: 80px;
 }
+.school_body {
+    background-color: #CCD4D6;
+}
 
 .headerPages {
     width: 100%;

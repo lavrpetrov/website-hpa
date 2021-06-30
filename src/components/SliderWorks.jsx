@@ -13,7 +13,7 @@ import "../scss/main.css";
 import SwiperCore, {
     Pagination, Navigation
 } from 'swiper/core';
-import {cv, github, instagram, logo, notion, str, telegram} from "./image";
+import {github, logo, notion, str} from "./image";
 
 // install Swiper modules
 SwiperCore.use([Pagination, Navigation]);
@@ -126,8 +126,8 @@ function Slider() {
                         <a className="swiper__contacts_a"
                            href="https://github.com/lavrpetrov/cities-game"
                            target="_blank" rel="noreferrer"><img
-                            className="swiper__contacts_logo" src={github} alt="notion"/></a>
-
+                            className="swiper__contacts_logo" src={github} alt="notion"/>
+                        </a>
                     </div>
                 </div>
             </div>),
