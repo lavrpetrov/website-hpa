@@ -8,7 +8,8 @@ function Menu({items, active, setActive}) {
             <div className="menu__content" onClick={e => e.stopPropagation()}>
                 <ul>
                     {items.map(item =>
-                        <li>
+                        <li
+                        key={items.id}>
                             <a href={item.href}>{item.value}</a>
                         </li>
                     )}

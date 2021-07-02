@@ -19,10 +19,10 @@ import {Link} from "react-router-dom";
 function Home() {
     const [menuActive, setMenuActive] = React.useState(false)
     const items = [
-        {value: "Personal Productivity", href: "/personal-productivity"},
-        {value: "Software Development", href: "/software-development"},
-        {value: "School 146", href: "/school"},
-        {value: "Contact us", href: "/contact"},
+        {id: 1, value: "Personal Productivity", href: "/personal-productivity"},
+        {id: 2, value: "Software Development", href: "/software-development"},
+        {id: 3, value: "School 146", href: "/school"},
+        {id: 4, value: "Contact us", href: "/contact"},
     ]
     return (
         <div className="container">
