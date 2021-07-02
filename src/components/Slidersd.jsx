@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {petr, andrey, roman, mikhail, yaroslav, telegram, notion, cv, instagram, vk} from "./image";
+import {petr, andrey, mikhail, roman, oleg, anastasia, yaroslav, telegram, notion, cv, instagram, vk} from "./image";
 
 import {Swiper, SwiperSlide} from "swiper/react";
 
@@ -47,6 +47,7 @@ function Slider() {
             name: "Petr",
             image: (<img className="swiper__img" src={petr} alt="place"/>),
             value: (<div className="swiper__text">
+                <div className="swiper__text_p"><span className="border__bottom">Петр Лавров</span></div>
                 <div className="swiper__text_p"><span>Роль:</span><p>Руководитель проектов</p></div>
                 <div className="swiper__text_div"><span>Компетенции: </span><p>&#10004; Программирование, System
                     design<br/>
@@ -96,13 +97,14 @@ function Slider() {
                             <a className="swiper__contacts_a"
                                href="https://www.notion.so/Petr-Lavrov-487e20f1130d4db08b67ae6ee58251ec"
                                target="_blank" rel="noreferrer"><img
-                                className="swiper__contacts_logo" src={cv} alt="notion"/></a>
+                                className="swiper__contacts_logo" src={cv} alt="cv"/></a>
                             <a className="swiper__contacts_a" href="https://www.instagram.com/beware.life_is_awesome/"
                                target="_blank" rel="noreferrer"><img
-                                className="swiper__contacts_logo" src={instagram} alt="notion"/></a>
-                            <a className="swiper__contacts_a" href="https://t.me/manifold_garden" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={instagram} alt="instagram"/></a>
+                            <a className="swiper__contacts_a" href="https://t.me/manifold_garden" target="_blank"
+                               rel="noreferrer"><img
                                 className="swiper__contacts_logo" src={telegram}
-                                alt="notion"/></a>
+                                alt="telegram"/></a>
                         </div>
                     </div>
                 </div>
@@ -113,14 +115,15 @@ function Slider() {
             name: "Andrey",
             image: (<img className="swiper__img" src={andrey} alt="place"/>),
             value: (<div className="swiper__text">
+                <div className="swiper__text_p"><span className="border__bottom">Андрей Долженков</span></div>
                 <div className="swiper__text_p"><span>Роль:</span><p>TeamLead команды разработчиков</p></div>
                 <div className="swiper__text_div"><span>Компетенции: </span><p>&#10004; Программирование, Frontend,
                     ReactJS, BEM, SASS<br/>
                 </p></div>
                 <div className="swiper__text_div"><span>Интересы: </span><p>
-                    &#10004;Personal Education, Computer, Software and Technical Innovations<br/>
+                    &#10004; Personal Education, Computer, Software and Technical Innovations<br/>
                     &#10004; Бег, плавание<br/>
-                    &#10004;Cooking, Playing Guitar</p></div>
+                    &#10004; Cooking, Playing Guitar</p></div>
 
             </div>),
             valueFull: (<div className="swiper__text">
@@ -134,10 +137,11 @@ function Slider() {
                         <div className="swiper__contacts">
                             <a className="swiper__contacts_a"
                                href="https://www.instagram.com/mustkov/" target="_blank" rel="noreferrer"><img
-                                className="swiper__contacts_logo" src={instagram} alt="notion"/></a>
-                            <a className="swiper__contacts_a" href="https://t.me/mustkov" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={instagram} alt="instagram"/></a>
+                            <a className="swiper__contacts_a" href="https://t.me/mustkov" target="_blank"
+                               rel="noreferrer"><img
                                 className="swiper__contacts_logo" src={telegram}
-                                alt="notion"/></a>
+                                alt="telegram"/></a>
                         </div>
                     </div>
                 </div>
@@ -148,6 +152,7 @@ function Slider() {
             name: "Roman",
             image: (<img className="swiper__img" src={roman} alt="place"/>),
             value: (<div className="swiper__text">
+                <div className="swiper__text_p"><span className="border__bottom">Роман Шапошников</span></div>
                 <div className="swiper__text_p"><span>Роль:</span><p>Куратор направления - "Notion"</p></div>
                 {/*<div className="swiper__text_div"><span>Компетенции: </span><p>&#10004; Программирование, Frontend,*/}
                 {/*    ReactJS, BEM, SASS<br/>*/}
@@ -172,11 +177,12 @@ function Slider() {
                         <span>Ссылки:</span>
                         <div className="swiper__contacts">
                             <a className="swiper__contacts_a"
-                               href="https://www.instagram.com/mustkov/" target="_blank" rel="noreferrer"><img
-                                className="swiper__contacts_logo" src={instagram} alt="notion"/></a>
-                            <a className="swiper__contacts_a" href="https://t.me/mustkov" target="_blank" rel="noreferrer"><img
-                                className="swiper__contacts_logo" src={telegram}
-                                alt="notion"/></a>
+                               href="https://www.instagram.com/roman_dector/" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={instagram} alt="instagram"/></a>
+                            <a className="swiper__contacts_a" href="https://vk.com/roman_dector" target="_blank"
+                               rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={vk}
+                                alt="vk"/></a>
                         </div>
                     </div>
                 </div>
@@ -187,15 +193,16 @@ function Slider() {
             name: "Yaroslav",
             image: (<img className="swiper__img" src={yaroslav} alt="place"/>),
             value: (<div className="swiper__text">
+                <div className="swiper__text_p"><span className="border__bottom">Ярослав Кищенко</span></div>
                 <div className="swiper__text_p"><span>Роль:</span><p>ассистент, программист</p></div>
                 <div className="swiper__text_div"><span>Компетенции: </span><p>
-                    &#10004;Программирование на Python<br/>
-                    &#10004;Быстрый и качественный поиск информации
+                    &#10004; Программирование на Python<br/>
+                    &#10004; Быстрый и качественный поиск информации
                 </p></div>
                 <div className="swiper__text_div"><span>Интересы: </span><p>
-                    &#10004;Гитара<br/>
-                    &#10004;Поезия<br/>
-                    &#10004;Бег, турник, брусья</p></div>
+                    &#10004; Гитара<br/>
+                    &#10004; Поезия<br/>
+                    &#10004; Бег, турник, брусья</p></div>
 
             </div>),
             valueFull: (<div className="swiper__text">
@@ -207,10 +214,133 @@ function Slider() {
                         <div className="swiper__contacts">
                             <a className="swiper__contacts_a"
                                href="https://vk.com/bdew_187451" target="_blank" rel="noreferrer"><img
-                                className="swiper__contacts_logo" src={vk} alt="notion"/></a>
-                            <a className="swiper__contacts_a" href="https://t.me/ylv_4" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={vk} alt="vk"/></a>
+                            <a className="swiper__contacts_a" href="https://t.me/ylv_4" target="_blank"
+                               rel="noreferrer"><img
                                 className="swiper__contacts_logo" src={telegram}
-                                alt="notion"/></a>
+                                alt="telegram"/></a>
+                        </div>
+                    </div>
+                </div>
+            ),
+            about: (<div className="swiper__about">Подробнее...</div>)
+        },
+        {
+            name: "Anastasia",
+            image: (<img className="swiper__img" src={anastasia} alt="place"/>),
+            value: (<div className="swiper__text">
+                <div className="swiper__text_p"><span className="border__bottom">Анастасия Сыпачева</span></div>
+                <div className="swiper__text_p"><span>Роль:</span><p>ассистент, программист</p></div>
+                <div className="swiper__text_div"><span>Компетенции: </span><p>
+                    &#10004; Программирование Java, Python<br/>
+                </p></div>
+                <div className="swiper__text_div"><span>Интересы: </span><p>
+                    &#10004; Lorem ipsum dolor.<br/>
+                </p></div>
+
+            </div>),
+            valueFull: (<div className="swiper__text">
+                    <div className="swiper__full"><span>О себе:</span><p>
+                        В прошлом году я окончила 146 школу и сейчас учусь на первом курсе университета ИТМО
+                        г.Санкт-Петербург . В детстве я увлекалась танцами и занималась ими 8 лет. Сейчас мои интересы
+                        немного изменились: еще я полюбила математику и программирование. В свободное время мне нравится
+                        гулять и смотреть сериалы.</p>
+                    </div>
+                    <div className="swiper__contacts_main">
+                        <span>Ссылки:</span>
+                        <div className="swiper__contacts">
+                            <a className="swiper__contacts_a"
+                               href="https://vk.com/anastasiykasss" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={vk} alt="vk"/></a>
+                            <a className="swiper__contacts_a" href="https://www.instagram.com/anastasia_sypacheva/"
+                               target="_blank"
+                               rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={instagram}
+                                alt="inst"/></a>
+                        </div>
+                    </div>
+                </div>
+            ),
+            about: (<div className="swiper__about">Подробнее...</div>)
+        },
+        {
+            name: "Oleg",
+            image: (<img className="swiper__img" src={oleg} alt="place"/>),
+            value: (<div className="swiper__text">
+                <div className="swiper__text_p"><span className="border__bottom">Олег Неволин</span></div>
+                <div className="swiper__text_p"><span>Роль:</span><p>ассистент, программист</p></div>
+                <div className="swiper__text_div"><span>Компетенции: </span><p>
+                    &#10004; Веб программирование, фронт<br/>
+                    &#10004; Инженерное 3D моделирование<br/>
+
+                </p></div>
+                <div className="swiper__text_div"><span>Интересы: </span><p>
+                    &#10004; 3D печать, изготовление прототипов<br/>
+                    &#10004; Литература в жанре фантастики и приключенческая<br/>
+                    &#10004; Прогулки на велосипеде<br/>
+                    &#10004; Блинчики<br/>
+                </p></div>
+
+            </div>),
+            valueFull: (<div className="swiper__text">
+                    <div className="swiper__full"><span>О себе:</span><p>
+                        Ученик первого (почти второго :) ) курса механико-математического факультета, преподаватель 3D
+                        моделирования, пытаюсь наладить систему тайм менеджмента GTD, участвую в разработке сайта для
+                        HPA</p>
+                    </div>
+                    <div className="swiper__contacts_main">
+                        <span>Ссылки:</span>
+                        <div className="swiper__contacts">
+                            <a className="swiper__contacts_a"
+                               href="https://t.me/OlejaTheHuman" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={telegram} alt="telegram"/></a>
+                            <a className="swiper__contacts_a" href="https://www.instagram.com/Oleja_the_human/"
+                               target="_blank"
+                               rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={instagram}
+                                alt="inst"/></a>
+                        </div>
+                    </div>
+                </div>
+            ),
+            about: (<div className="swiper__about">Подробнее...</div>)
+        },
+        {
+            name: "Mikhail",
+            image: (<img className="swiper__img" src={mikhail} alt="place"/>),
+            value: (<div className="swiper__text">
+                <div className="swiper__text_p"><span className="border__bottom">Михаил Зыбин</span></div>
+                <div className="swiper__text_p"><span>Роль:</span><p> программист</p></div>
+                <div className="swiper__text_div"><span>Компетенции: </span><p>
+                    &#10004; Машинное обучение<br/>
+                    &#10004; Анализ данных<br/>
+                    &#10004; Программирование и статистика с использованием языка Python и
+                    библиотек numpy, pandas, scikit-learn, keras, pytorch<br/>
+                </p></div>
+                <div className="swiper__text_div"><span>Интересы: </span><p>
+                    &#10004; Рациональность<br/>
+                    &#10004; Анализ данных в биологии и медицине<br/>
+                </p></div>
+
+            </div>),
+            valueFull: (<div className="swiper__text">
+                    <div className="swiper__full"><span>О себе:</span><p>
+                        Интересуюсь рациональным мышлением и осознанностью. Позапрошлой зимой был на воркшопе
+                        московского центра рациональности "Кочерга", прошлым летом прошел курс по усилению интеллекта у
+                        рацио-коуча Пион Медведевой. Медитирую регулярно чуть больше трех лет, был на десятидневном
+                        ретрите по випассане, в этом году прошел 9-недельный онлайн-курс по базовой осознанности у
+                        светского учителя медитации Вити Ширяева.<br/>
+                        Практиковал ненасильственное общение (по Розенбергу), уличную эпистемологию (подход к ведению
+                        бесконфликтного диалога, который позволяет исследовать надежность рассуждений собеседников).
+                        Считаю себя внимательным, доброжелательным и экологичным человеком. В основнмо ем веганскую
+                        еду.</p>
+                    </div>
+                    <div className="swiper__contacts_main">
+                        <span>Ссылки:</span>
+                        <div className="swiper__contacts">
+                            <a className="swiper__contacts_a"
+                               href="https://vk.com/misha_zybin" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={vk} alt="vk"/></a>
                         </div>
                     </div>
                 </div>

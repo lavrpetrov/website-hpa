@@ -89,7 +89,7 @@ function Slider() {
                 <div className="swiper__text_p"><span>Название:</span><p>Notion Assistant</p></div>
                 <div className="swiper__text_div"><span>Создатель:</span><p>Роман Шапошников, Степан Григорьев</p></div>
                 <div className="swiper__text_div"><span>Цель проекта: </span>
-                    <p>&#10004;Создание бота, который будет уметь работать со страничками в Notion (сканить,
+                    <p>&#10004; Создание бота, который будет уметь работать со страничками в Notion (сканить,
                         обрабатывать, расставлять теги, проставлять статусы.<br/>
                     </p></div>
                 <div className="swiper__text_div"><span>Технологии: </span><p>
