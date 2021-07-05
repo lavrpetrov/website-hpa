@@ -1,5 +1,19 @@
 import React, {useState} from 'react';
-import {petr, andrey, mikhail, roman, oleg, anastasia, yaroslav, telegram, notion, cv, instagram, vk} from "./image";
+import {
+    petr,
+    andrey,
+    mikhail,
+    roman,
+    oleg,
+    anastasia,
+    yaroslav,
+    telegram,
+    notion,
+    cv,
+    instagram,
+    vk,
+    albina, github
+} from "./image";
 
 import {Swiper, SwiperSlide} from "swiper/react";
 
@@ -154,14 +168,18 @@ function Slider() {
             value: (<div className="swiper__text">
                 <div className="swiper__text_p"><span className="border__bottom">Роман Шапошников</span></div>
                 <div className="swiper__text_p"><span>Роль:</span><p>Куратор направления - "Notion"</p></div>
-                {/*<div className="swiper__text_div"><span>Компетенции: </span><p>&#10004; Программирование, Frontend,*/}
-                {/*    ReactJS, BEM, SASS<br/>*/}
-                {/*    &#10004; Руководство командой, управление проектами и процессами<br/>*/}
-                {/*    &#10004; Бег, плавание<br/>*/}
-                {/*</p></div>*/}
-                {/*<div className="swiper__text_div"><span>Интересы: </span><p>*/}
-                {/*    &#10004;Personal Education, Computer, Software and Technical Innovations<br/>*/}
-                {/*    &#10004;Cooking, Playing Guitar</p></div>*/}
+                <div className="swiper__text_div"><span>Компетенции: </span><p>
+                    &#10004; Программирование<br/>
+                    &#10004; Спорт<br/>
+                    &#10004; Организация<br/>
+                </p></div>
+                <div className="swiper__text_div"><span>Интересы: </span><p>
+                    &#10004; Медитация<br/>
+                    &#10004; Технологии<br/>
+                    &#10004; Инвестиции<br/>
+                    &#10004; Саморазвитие<br/>
+                    &#10004; Английский<br/>
+                    &#10004; Спорт</p></div>
             </div>),
             valueFull: (<div className="swiper__text">
                     <div className="swiper__full"><span>О себе:</span><p>
@@ -196,13 +214,17 @@ function Slider() {
                 <div className="swiper__text_p"><span className="border__bottom">Ярослав Кищенко</span></div>
                 <div className="swiper__text_p"><span>Роль:</span><p>ассистент, программист</p></div>
                 <div className="swiper__text_div"><span>Компетенции: </span><p>
-                    &#10004; Программирование на Python<br/>
-                    &#10004; Быстрый и качественный поиск информации
+                    &#10004; Программирование<br/>
+                    &#10004; Продуктивность
                 </p></div>
                 <div className="swiper__text_div"><span>Интересы: </span><p>
-                    &#10004; Гитара<br/>
-                    &#10004; Поезия<br/>
-                    &#10004; Бег, турник, брусья</p></div>
+                    &#10004; Спорт<br/>
+                    &#10004; Путешествия<br/>
+                    &#10004; Технологии<br/>
+                    &#10004; Инвестиции<br/>
+                    &#10004; Театр<br/>
+                    &#10004; Кинематограф<br/>
+                    &#10004; Английский</p></div>
 
             </div>),
             valueFull: (<div className="swiper__text">
@@ -235,7 +257,9 @@ function Slider() {
                     &#10004; Программирование Java, Python<br/>
                 </p></div>
                 <div className="swiper__text_div"><span>Интересы: </span><p>
-                    &#10004; Lorem ipsum dolor.<br/>
+                    &#10004; Саморазвитие<br/>
+                    &#10004; Спорт<br/>
+                    &#10004; Танцы<br/>
                 </p></div>
 
             </div>),
@@ -270,15 +294,19 @@ function Slider() {
                 <div className="swiper__text_p"><span className="border__bottom">Олег Неволин</span></div>
                 <div className="swiper__text_p"><span>Роль:</span><p>ассистент, программист</p></div>
                 <div className="swiper__text_div"><span>Компетенции: </span><p>
-                    &#10004; Веб программирование, фронт<br/>
-                    &#10004; Инженерное 3D моделирование<br/>
+                    &#10004; Math and Physics<br/>
+                    &#10004; Teacher<br/>
+                    &#10004; Программирование<br/>
 
                 </p></div>
                 <div className="swiper__text_div"><span>Интересы: </span><p>
-                    &#10004; 3D печать, изготовление прототипов<br/>
-                    &#10004; Литература в жанре фантастики и приключенческая<br/>
-                    &#10004; Прогулки на велосипеде<br/>
-                    &#10004; Блинчики<br/>
+                    &#10004; Спорт<br/>
+                    &#10004; Кинематограф<br/>
+                    &#10004; Кулинария<br/>
+                    &#10004; Путешествия<br/>
+                    &#10004; Технологии<br/>
+                    &#10004; Саморазвитие<br/>
+                    &#10004; Английский<br/>
                 </p></div>
 
             </div>),
@@ -312,14 +340,17 @@ function Slider() {
                 <div className="swiper__text_p"><span className="border__bottom">Михаил Зыбин</span></div>
                 <div className="swiper__text_p"><span>Роль:</span><p> программист</p></div>
                 <div className="swiper__text_div"><span>Компетенции: </span><p>
-                    &#10004; Машинное обучение<br/>
-                    &#10004; Анализ данных<br/>
-                    &#10004; Программирование и статистика с использованием языка Python и
-                    библиотек numpy, pandas, scikit-learn, keras, pytorch<br/>
+                    &#10004; Math and Physics<br/>
+                    &#10004; Продуктивность<br/>
+                    &#10004; Программирование<br/>
                 </p></div>
                 <div className="swiper__text_div"><span>Интересы: </span><p>
-                    &#10004; Рациональность<br/>
-                    &#10004; Анализ данных в биологии и медицине<br/>
+                    &#10004; Спорт<br/>
+                    &#10004; Путешествия<br/>
+                    &#10004; Технологии<br/>
+                    &#10004; Инвестиции<br/>
+                    &#10004; Саморазвитие<br/>
+                    &#10004; Английский<br/>
                 </p></div>
 
             </div>),
@@ -341,6 +372,57 @@ function Slider() {
                             <a className="swiper__contacts_a"
                                href="https://vk.com/misha_zybin" target="_blank" rel="noreferrer"><img
                                 className="swiper__contacts_logo" src={vk} alt="vk"/></a>
+                        </div>
+                    </div>
+                </div>
+            ),
+            about: (<div className="swiper__about">Подробнее...</div>)
+        },
+        {
+            name: "Albina",
+            image: (<img className="swiper__img" src={albina} alt="place"/>),
+            value: (<div className="swiper__text">
+                <div className="swiper__text_p"><span className="border__bottom">Альбина Лупанова</span></div>
+                <div className="swiper__text_p"><span>Роль:</span><p> ассистент, программист</p></div>
+                <div className="swiper__text_div"><span>Компетенции: </span><p>
+                    &#10004; Math and Physics<br/>
+                    &#10004; Продуктивность<br/>
+                    &#10004; Программирование<br/>
+                </p></div>
+                <div className="swiper__text_div"><span>Интересы: </span><p>
+                    &#10004; Спорт<br/>
+                    &#10004; Путешествия<br/>
+                    &#10004; Технологии<br/>
+                    &#10004; Инвестиции<br/>
+                    &#10004; Саморазвитие<br/>
+                    &#10004; Английский<br/>
+                </p></div>
+
+            </div>),
+            valueFull: (<div className="swiper__text">
+                    <div className="swiper__full"><span>О себе:</span><p>
+                        Самый прокаченный мой скилл - умение действовать по алгоритму. Наиболее эффективно работаю в
+                        команде, а не в одиночку; отношу себя к типу лидер-служитель. Люблю дисциплину и
+                        последовательность. Скептически отношусь к массовым веяниям, в том числе крупным организациям,
+                        поэтому предпочитаю работу в малых группах. <br/>
+                        Люблю тусы, танцы до упаду, людей, преданно следующих своей идее, орехи и горы
+                    </p>
+                    </div>
+                    <div className="swiper__contacts_main">
+                        <span>Ссылки:</span>
+                        <div className="swiper__contacts">
+                            <a className="swiper__contacts_a"
+                               href="https://vk.com/lupaparapanova" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={vk} alt="vk"/></a>
+                            <a className="swiper__contacts_a"
+                               href="https://www.instagram.com/lupaparapanova/" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={instagram} alt="instagram"/></a>
+                            <a className="swiper__contacts_a"
+                               href="https://t.me/lupaparapanova" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={telegram} alt="telegram"/></a>
+                            <a className="swiper__contacts_a"
+                               href="https://github.com/albina77" target="_blank" rel="noreferrer"><img
+                                className="swiper__contacts_logo" src={github} alt="github"/></a>
                         </div>
                     </div>
                 </div>
