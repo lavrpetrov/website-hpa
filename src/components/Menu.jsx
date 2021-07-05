@@ -9,7 +9,7 @@ function Menu({items, active, setActive}) {
                 <ul>
                     {items.map(item =>
                         <li
-                        key={items.id}>
+                        key={item.id}>
                             <a href={item.href}>{item.value}</a>
                         </li>
                     )}
