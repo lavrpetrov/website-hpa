@@ -175,6 +175,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #FEFEFE;
     padding-bottom: 80px;
 }
+.school_body {
+    background-color: #CCD4D6;
+}
 
 .headerPages {
     width: 100%;
@@ -372,7 +375,7 @@ padding: 30px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
-    justify-content: center;
+    justify-content: space-between;
     -webkit-box-align: center;
     -ms-flex-align: center;
     -webkit-align-items: center;
@@ -419,6 +422,10 @@ padding: 30px;
 .swiper__text_div p {
     align-items: self-start;
     margin-left: 5px;
+}
+.border__bottom {
+    border-bottom: black solid 2px;
+    margin-bottom: 8px;
 }
 
 .swiper__text_p {
@@ -496,7 +503,7 @@ margin-left: 90px;
 .menu__home {
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 0;
     right: 0;
     transform: translateX(130%);
@@ -547,7 +554,7 @@ ul li a {
 ul li {
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 1vh;
 }
 
 ul {

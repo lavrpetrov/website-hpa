@@ -21,6 +21,9 @@ export {default as andrey} from "../assets/photo/andrey.png";
 export {default as roman} from "../assets/photo/roman.png";
 export {default as mikhail} from "../assets/photo/mikhail.jpg";
 export {default as yaroslav} from "../assets/photo/yaroslav.png";
+export {default as anastasia} from "../assets/photo/anastasia.jpg";
+export {default as oleg} from "../assets/photo/oleg.jpg";
+export {default as albina} from "../assets/photo/albina.jpg";
 //logo contacts
 export {default as telegram} from "../assets/img/telegram.svg";
 export {default as notion} from "../assets/img/notion.svg";
